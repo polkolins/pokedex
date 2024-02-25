@@ -89,7 +89,7 @@ func getCommands() map[string]cliCommand {
 		},
 		"exit": {
 			name:        "exit",
-			description: "Exit the Deck",
+			description: "Exit the Pokedex",
 			callback:    commandExit,
 		},
 	}
